@@ -11,3 +11,12 @@ Define your main function. This is the entry point of the code whenever it is ex
      {
 
      }
+
+Notice that our main function has some *int* keyword when it is defined. This means when the function is called or has exited, it will return an integer value. In this case, we need to define a returning integer when this main function is done using *return* keyword. We can use 0 to indicate that our main function is successful and done.
+
+    int main()
+    {
+
+        return 0;
+    }
+
